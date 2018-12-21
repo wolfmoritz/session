@@ -1,3 +1,6 @@
+# Archived
+**Project has been moved to https://github.com/PitonCMS/Session where it being maintained.**
+
 # PHP Session Handler
 
 This class maintains session state across page views. A hashed, salted session key is set in a cookie which is the key to the session record in a MySQL table. The session key is regenerated every 5 minutes or as set in the configuation array. No information, other than the key, is stored client side. All user session information is kept server side in a database table.
